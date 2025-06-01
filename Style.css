@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #1a1a1a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  padding: 2rem;
+  border-radius: 16px;
+  background: #2b2d31;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.invite-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  background: #57F287;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.3s ease;
+}
+
+.invite-btn:hover {
+  background: #3cc16e;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #bbb;
+}
